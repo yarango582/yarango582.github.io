@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Limpo — Política de privacidad / Privacy policy</title>
 <style>
-  :root { --mint:#0FB37F; --ink:#0B2E24; --tint:#EAF8F2; }
+  :root { --mint:#0FB37F; --mint-text:#0A7A58; --ink:#0B2E24; --tint:#EAF8F2; }
   body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color:var(--ink); background:#fff; line-height:1.6; }
   main { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
-  h1 { color: var(--mint); margin-bottom: 4px; }
-  h2 { color: var(--mint); margin-top: 40px; }
-  nav a { margin-right: 16px; color: var(--mint); font-weight: 600; }
+  h1 { color: var(--mint-text); margin-bottom: 4px; }
+  h2 { color: var(--mint-text); margin-top: 40px; }
+  nav a { display:inline-block; padding:8px 0; margin-right: 16px; color: var(--mint-text); font-weight: 600; }
   section { background: var(--tint); border-radius: 20px; padding: 8px 24px 16px; margin-top: 24px; }
   small { color: #3D5C52; }
 </style>
@@ -19,58 +19,64 @@
 <main>
 <h1>Limpo</h1>
 <small>Última actualización / Last updated / Última atualização: 2026-10-15</small>
-<nav><a href="#es">Español</a><a href="#pt">Português</a><a href="#en">English</a></nav>
+<nav aria-label="Idioma / Language / Idioma"><a href="#es">Español</a><a href="#pt">Português</a><a href="#en">English</a></nav>
 
 <section id="es">
 <h2>Política de privacidad</h2>
 <p>Limpo es una app para liberar espacio en tu celular. Esta política explica qué datos se usan y por qué.</p>
 <h3>Tus fotos, videos y archivos</h3>
 <p>Limpo analiza tus fotos, videos y la lista de apps instaladas <strong>únicamente dentro de tu celular</strong> para encontrar duplicados, fotos borrosas, capturas de pantalla y apps sin uso. <strong>Nunca subimos, copiamos ni compartimos tus fotos, videos, archivos ni la lista de tus apps.</strong> Los resultados del análisis se guardan solo en tu celular y se borran si desinstalas Limpo.</p>
-<p>Cuando eliges borrar algo, Limpo lo envía a la papelera del sistema (Android 11 o superior), donde puedes recuperarlo durante 30 días.</p>
+<p>En Android 11 o superior, cuando eliges borrar algo, Limpo lo envía a la papelera del sistema, donde puedes recuperarlo durante 30 días. En Android 10 no existe papelera del sistema: Limpo te avisa antes y el borrado es permanente.</p>
 <h3>Acceso de uso de apps</h3>
-<p>Si lo permites, Limpo lee cuándo abriste cada app por última vez y cuánto espacio ocupa, solo para mostrarte las apps que no usas. Este dato no sale de tu celular.</p>
+<p>Si lo permites, Limpo lee cuándo abriste cada app por última vez y cuánto espacio ocupa, solo para mostrarte las apps que no usas. Este dato no sale de tu celular, no se usa para nada más y puedes revocar el permiso en Ajustes → Acceso de uso.</p>
 <h3>Anuncios</h3>
-<p>La versión gratuita muestra anuncios de Google AdMob. Para mostrarlos, el SDK de Google puede recopilar el identificador de publicidad del dispositivo, la dirección IP aproximada y datos de interacción con los anuncios, según la <a href="https://policies.google.com/technologies/partner-sites">política de Google</a>. Si estás en el Espacio Económico Europeo, el Reino Unido o en una región que lo requiera, te pediremos consentimiento y podrás cambiarlo en “Acerca de → Opciones de privacidad de anuncios”. Puedes restablecer o desactivar el identificador de publicidad en los ajustes de Android.</p>
+<p>La versión gratuita muestra anuncios de Google AdMob. Para mostrarlos, el SDK de Google puede recopilar el identificador de publicidad del dispositivo, la dirección IP aproximada, datos de interacción con los anuncios y datos del dispositivo y de diagnóstico (modelo, versión de Android, datos de fallos), según la <a href="https://policies.google.com/technologies/partner-sites">política de Google</a>. Google actúa como un tercero independiente respecto de estos datos. Si estás en el Espacio Económico Europeo, el Reino Unido, Brasil o en otra región que lo requiera, te pediremos consentimiento y podrás cambiarlo en “Acerca de → Opciones de privacidad de anuncios”. Puedes restablecer o desactivar el identificador de publicidad en los ajustes de Android. Si compras la opción para quitar anuncios, Limpo deja de solicitar y mostrar anuncios y no inicia el SDK de anuncios en los siguientes usos de la app.</p>
 <h3>Compras</h3>
 <p>El pago único para quitar anuncios lo procesa Google Play. Limpo no recibe tus datos de pago.</p>
 <h3>Niños</h3>
-<p>Limpo no está dirigida a menores de 13 años.</p>
+<p>Limpo no está dirigida a niños ni recopila a sabiendas datos de menores de 13 años (o de la edad mínima aplicable en tu país).</p>
+<h3>Retención y eliminación de datos</h3>
+<p>Limpo no mantiene cuentas ni servidores con tus datos. Los datos locales se eliminan al desinstalar la app. Los datos que Google AdMob o Google Play procesan se rigen por las políticas de Google; puedes restablecer o borrar tu identificador de publicidad en los ajustes de Android y escribirnos a <a href="mailto:yarangodev@gmail.com">yarangodev@gmail.com</a>.</p>
 <h3>Contacto</h3>
 <p>Escríbenos a <a href="mailto:yarangodev@gmail.com">yarangodev@gmail.com</a>.</p>
 </section>
 
-<section id="pt">
+<section id="pt" lang="pt">
 <h2>Política de privacidade</h2>
 <p>O Limpo é um app para liberar espaço no seu celular. Esta política explica quais dados são usados e por quê.</p>
 <h3>Suas fotos, vídeos e arquivos</h3>
 <p>O Limpo analisa suas fotos, vídeos e a lista de apps instalados <strong>somente dentro do seu celular</strong> para encontrar duplicadas, fotos desfocadas, capturas de tela e apps sem uso. <strong>Nunca enviamos, copiamos ou compartilhamos suas fotos, vídeos, arquivos ou a lista dos seus apps.</strong> Os resultados ficam apenas no seu celular e são apagados se você desinstalar o Limpo.</p>
-<p>Quando você escolhe apagar algo, o Limpo envia para a lixeira do sistema (Android 11 ou superior), onde pode ser recuperado por 30 dias.</p>
+<p>No Android 11 ou superior, ao apagar algo, o Limpo envia para a lixeira do sistema, onde pode ser recuperado por 30 dias. No Android 10 não há lixeira do sistema: o Limpo avisa antes e a exclusão é permanente.</p>
 <h3>Acesso de uso de apps</h3>
-<p>Se você permitir, o Limpo lê quando cada app foi aberto pela última vez e quanto espaço ocupa, apenas para mostrar os apps que você não usa. Esse dado não sai do seu celular.</p>
+<p>Se você permitir, o Limpo lê quando cada app foi aberto pela última vez e quanto espaço ocupa, apenas para mostrar os apps que você não usa. Esse dado não sai do seu celular, não é usado para mais nada e você pode revogar a permissão em Configurações → Acesso de uso.</p>
 <h3>Anúncios</h3>
-<p>A versão gratuita mostra anúncios do Google AdMob. Para exibi-los, o SDK do Google pode coletar o identificador de publicidade do dispositivo, o endereço IP aproximado e dados de interação com os anúncios, conforme a <a href="https://policies.google.com/technologies/partner-sites">política do Google</a>. Quando exigido por lei, pediremos seu consentimento, que pode ser alterado em “Sobre → Opções de privacidade de anúncios”. Você pode redefinir ou desativar o identificador de publicidade nas configurações do Android.</p>
+<p>A versão gratuita mostra anúncios do Google AdMob. Para exibi-los, o SDK do Google pode coletar o identificador de publicidade do dispositivo, o endereço IP aproximado, dados de interação com os anúncios e dados do dispositivo e de diagnóstico (modelo, versão do Android, dados de falhas), conforme a <a href="https://policies.google.com/technologies/partner-sites">política do Google</a>. O Google atua como um terceiro independente em relação a esses dados. Se você estiver no Espaço Econômico Europeu, no Reino Unido, no Brasil ou em outra região que exija, pediremos seu consentimento, que pode ser alterado em “Sobre → Opções de privacidade de anúncios”. Você pode redefinir ou desativar o identificador de publicidade nas configurações do Android. Se você comprar a opção de remover anúncios, o Limpo deixa de solicitar e exibir anúncios e não inicia o SDK de anúncios nos usos seguintes do app.</p>
 <h3>Compras</h3>
 <p>O pagamento único para remover anúncios é processado pelo Google Play. O Limpo não recebe seus dados de pagamento.</p>
 <h3>Crianças</h3>
-<p>O Limpo não é direcionado a menores de 13 anos.</p>
+<p>O Limpo não é direcionado a crianças nem coleta conscientemente dados de menores de 13 anos (ou da idade mínima aplicável no seu país).</p>
+<h3>Retenção e exclusão de dados</h3>
+<p>O Limpo não mantém contas nem servidores com os seus dados. Os dados locais são excluídos ao desinstalar o app. Os dados que o Google AdMob ou o Google Play processam seguem as políticas do Google; você pode redefinir ou apagar seu identificador de publicidade nas configurações do Android e escrever para <a href="mailto:yarangodev@gmail.com">yarangodev@gmail.com</a>.</p>
 <h3>Contato</h3>
 <p>Escreva para <a href="mailto:yarangodev@gmail.com">yarangodev@gmail.com</a>.</p>
 </section>
 
-<section id="en">
+<section id="en" lang="en">
 <h2>Privacy policy</h2>
 <p>Limpo is an app to free up space on your phone. This policy explains which data is used and why.</p>
 <h3>Your photos, videos and files</h3>
 <p>Limpo analyzes your photos, videos and the list of installed apps <strong>only on your phone</strong> to find duplicates, blurry photos, screenshots and unused apps. <strong>We never upload, copy or share your photos, videos, files or app list.</strong> Analysis results stay on your phone and are deleted if you uninstall Limpo.</p>
-<p>When you choose to delete something, Limpo sends it to the system trash (Android 11 or later), where you can restore it for 30 days.</p>
+<p>On Android 11 or later, when you delete something Limpo moves it to the system trash, where you can restore it for 30 days. Android 10 has no system trash: Limpo warns you first and the deletion is permanent.</p>
 <h3>App usage access</h3>
-<p>If you allow it, Limpo reads when each app was last opened and how much space it uses, only to show you the apps you don't use. This data never leaves your phone.</p>
+<p>If you allow it, Limpo reads when each app was last opened and how much space it uses, only to show you the apps you don't use. This data never leaves your phone, is used for nothing else, and you can revoke the permission in Settings → Usage access.</p>
 <h3>Ads</h3>
-<p>The free version shows Google AdMob ads. To serve them, Google's SDK may collect the device advertising ID, approximate IP address and ad interaction data, as described in <a href="https://policies.google.com/technologies/partner-sites">Google's policy</a>. Where required by law we ask for your consent, which you can change in “About → Ad privacy options”. You can reset or turn off the advertising ID in Android settings.</p>
+<p>The free version shows Google AdMob ads. To serve them, Google's SDK may collect the device advertising ID, approximate IP address, ad interaction data, and device and diagnostic data (model, Android version, crash data), as described in <a href="https://policies.google.com/technologies/partner-sites">Google's policy</a>. Google acts as an independent third party for this data. If you are in the European Economic Area, the United Kingdom, Brazil or another region that requires it, we ask for your consent, which you can change in “About → Ad privacy options”. You can reset or turn off the advertising ID in Android settings. If you buy the remove-ads purchase, Limpo stops requesting and showing ads and does not start the ads SDK on later launches.</p>
 <h3>Purchases</h3>
 <p>The one-time payment to remove ads is processed by Google Play. Limpo does not receive your payment details.</p>
 <h3>Children</h3>
-<p>Limpo is not directed to children under 13.</p>
+<p>Limpo is not directed to children and does not knowingly collect data from children under 13 (or the minimum age that applies in your country).</p>
+<h3>Data retention and deletion</h3>
+<p>Limpo does not keep accounts or servers with your data. Local data is deleted when you uninstall the app. Data processed by Google AdMob or Google Play is governed by Google's policies; you can reset or delete your advertising ID in Android settings and write to us at <a href="mailto:yarangodev@gmail.com">yarangodev@gmail.com</a>.</p>
 <h3>Contact</h3>
 <p>Write to <a href="mailto:yarangodev@gmail.com">yarangodev@gmail.com</a>.</p>
 </section>
